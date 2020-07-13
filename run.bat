@@ -1,0 +1,5 @@
+@ECHO OFF
+ECHO "COMPILANDO E EXECUTANDO FILE: " %1
+gcc -Wall %1".c"
+a.exe
+EXIT
