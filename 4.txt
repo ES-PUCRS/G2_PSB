@@ -1,0 +1,11 @@
+// Em linhas gerais, explique a necessidade do uso de alocação dinâmica em C,
+// apresentando pelo menos um exemplo
+// (de utilização, não é necessário mostrar código).
+
+A alocação não dinâmica tem como limite 8 mb. Para variaveis que consomem um espaço
+maior, há uma necessidade de alocar a memória dinâmicamente, isso é, ela é alocada
+durante a execução do programa de acordo com a disponibilidade da memória.
+
+Por exemplo, para alocar 20.000.000 posições de memória para um ponteiro char, precisamos
+utilizar do método malloc, pois a alocação não dinâmica ocuparia mais de 8mb em alocação
+linear na memória. Entretanto, o malloc alocaria conforme houvesse disponibilidade de memória

@@ -8,7 +8,7 @@
 //
 // int main() {
 //   int novaString[12];
-// 
+//
 //   // Esta função não coloca um '\0' no final
 //   copiaNovaString(novaString, "imagine");
 //
@@ -19,8 +19,8 @@
 
 #include <stdio.h>
 
-void imprimeNovaString(int *string) {
-    char *str = &string[0];
+void imprimeNovaString(int string[]) {
+    char *str = (char)string[0];
     printf("%d\n", sizeof(*str));
     // for(int i = 0; i <= 12; i++){
     //     for()
