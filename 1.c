@@ -1,3 +1,13 @@
+// Considere uma matriz de 5000 x 5000 floats alocada dinamicamente, mas como um vetor.
+// int main() {
+//    float *mat = malloc(5000 * 5000 * sizeof *mat);
+//    ...
+// }
+//
+// Escreva funções que recebam a matriz como parâmetro e realizem as seguintes ações:
+// Calcular e retornar o somatório de todos os elementos em posições pares (0,2,4,...) da matriz, tanto para linhas como para colunas.
+// Calcular o maior valor de cada coluna da matriz, preenchendo por referência um vetor maior de 5000 floats.
+
 #include <stdio.h>
 #include <malloc.h>
 
